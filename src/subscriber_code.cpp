@@ -1,5 +1,9 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
+ /*
+  * #include "publisher_package/topic_name.h"
+  * was throwing errors so I used relative path to get it to run
+  */
 #include "../../publisher_package/include/publisher_package/topic_name.h"
 
 /**
